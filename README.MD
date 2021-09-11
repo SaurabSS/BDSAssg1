@@ -114,7 +114,8 @@ The WordCount Program has been compiled using:
 ![Compiling WordCount Program](Screenshots/CompilingWordCount.png)
 
 Files to see after compilation:
-![Post compilation of WordCount files](Screenshots/PostCompilationFilesWC.png)
+
+<img src="Screenshots/PostCompilationFilesWC.png" width="80">
 
 Files put in HDFS (5 in this example):
 ![Showing 5 text files in HDFS](Screenshots/HDFS_ls_with5TextFiles.png)
