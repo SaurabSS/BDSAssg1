@@ -15,7 +15,11 @@ Screenshots contain snaps of executed programs on a certain amount of data and i
 
 `WordCount.java` is the vanilla Java program in Hadoop MapReduce [tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html). It counts the number of occurences of ALL words in any given set of files in an input directory. 
 
-`TopN.java` is a [code](https://awesomeopensource.com/project/andreaiacono/MapReduce) that uses MapReduce paradigm to arrive at the Top N most occurred words in a given set of text files. 
+**Note:**
+`TopN.java` is a [code](https://awesomeopensource.com/project/andreaiacono/MapReduce) that uses MapReduce paradigm to arrive at the Top N most occurred words in a given set of text files. I am **not including** it in the repository until I find an explicit open-source license associated with it or the author approves its usage. 
+
+Meanwhile, these are the steps to fetch it:
+After cloning this repository, download the code from [here](https://github.com/andreaiacono/MapReduce/blob/master/src/main/java/samples/topn_enhanced/EnhancedTopN.java), and rename the file and the class to TopN (basically all occurances of EnhancedTopN to TopN) and change the number of output words to 100 as per this assignments specification. 
 
 `Plotter.py` is a Python code that uses the matplotlib library to plot the runtime results for TopN and WordCount codes.
 
@@ -24,7 +28,7 @@ Screenshots contain snaps of executed programs on a certain amount of data and i
 
 **Note:**
 
-These instructions assume that Hadoop is installed and is working on your computer(s). If not, please refer to their instructions to install [here](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html).
+These instructions assume that Hadoop is installed and is working on your computer(s). If not, please refer to their instructions to install [here](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html). Also you must have TopN java code downloaded and modified as per above instructions.
 
 Once Hadoop is installed, it is recommended to format your namenode if you are trying to start with a fresh HDFS. 
 
