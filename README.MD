@@ -2,7 +2,7 @@
 
 The option chosen for this assignment is Problem1-option1. For the full description of the problem, refer to `2021-ProgrammingAssignment-1.pdf`. The PDF also has descriptions of other problems and options given as a part of the assignment.
 
-**Note:** This README is a brief overview of the directory and the steps to run the code, along with a sample run. For the Analytical Report of experiments, refer to ANALYSIS.pdf. Took have a look at all commands ran as part of the experiments, look into the `Screenshots` folder.
+**Note:** This README is a brief overview of the directory and the steps to run the code, along with a sample run. For the Analytical Report of experiments, refer to `AnalysisReport.pdf`. Took have a look at all commands ran as part of the experiments, look into the `Screenshots` folder.
 
 
 ## Directories Explained
@@ -61,11 +61,11 @@ where foo = TopN or WordCount
 Make a jar using either of these commands:
 
 ```
-$ jar cf wc.jar WordCount*.class
+jar cf wc.jar WordCount*.class
 ```
 or
 ```
-$ jar cf topn.jar TopN*.class
+jar cf topn.jar TopN*.class
 ```
 ### Load Data
 ```
@@ -76,16 +76,18 @@ hadoop fs -put /<fs path of file> /user/input
 ### Run
 
 ```
-$ hadoop jar wc.jar WordCount /user/input /user/output
+hadoop jar wc.jar WordCount /user/input /user/output
 ```
 or
 ```
-$ hadoop jar topN.jar TopN /user/input /user/output
+hadoop jar topN.jar TopN /user/input /user/output
 ```
 
 ### Get the Output back to the File System
 
-```hadoop fs -get /user/output/part-r-<reducernumber> Output```
+```
+hadoop fs -get /user/output/part-r-<reducernumber> Output
+```
 
 where the `reducernumber` starts from 00000 
 
@@ -115,7 +117,7 @@ The WordCount Program has been compiled using:
 
 Files to see after compilation:
 
-<img src="Screenshots/PostCompilationFilesWC.png" width="80">
+<img src="Screenshots/PostCompilationFilesWC.png" width="130">
 
 Files put in HDFS (5 in this example):
 ![Showing 5 text files in HDFS](Screenshots/HDFS_ls_with5TextFiles.png)
