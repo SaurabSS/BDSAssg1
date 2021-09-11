@@ -114,7 +114,7 @@ The WordCount Program has been compiled using:
 ![Compiling WordCount Program](Screenshots/CompilingWordCount.png)
 
 Files to see after compilation:
-<img src="Screenshots/PostCompilationFilesWC.png" width="60">
+![Post compilation of WordCount files](Screenshots/PostCompilationFilesWC.png)
 
 Files put in HDFS (5 in this example):
 ![Showing 5 text files in HDFS](Screenshots/HDFS_ls_with5TextFiles.png)
@@ -122,7 +122,7 @@ Files put in HDFS (5 in this example):
 Running WordCount on 5 files:
 ![Running WordCount on 5 files](Screenshots/WC_on5files.png)
 
-etting Output back to File System:
+Getting Output back to File System:
 ![Getting Output back to FS](Screenshots/Getting5FileWCOutputToFS.png)
 
 The final output of this example can be viewed in `Output/vanillaWC5File.txt`
