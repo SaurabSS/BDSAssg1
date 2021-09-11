@@ -16,6 +16,8 @@ Showing a sample WordCount Run:
 
 We ran the vanilla WordCount program over 5,10,15,20 files of similar sizes to observe the scaling trend followed by MapReduce programs in general.
 
+These are the runtimes for the given words (approximated through average). 
+
 | Words | Mappers Runtime (ms) | Reducers Runtime (ms)|
 | ---- | ---- | ---- |
 | 3000 | 23328 | 3019 |
@@ -24,7 +26,9 @@ We ran the vanilla WordCount program over 5,10,15,20 files of similar sizes to o
 | 12000 | 102106 | 10909 |
 
 
-## 
+## Top 100 words using MapReduce Paradigm
+
+We also ran a Top100 java code that uses MapReduce paradigm on files in Input/gutenberg. For this task, the books (and parts of books) written by Mark Twain were considered. On average, each file is in the size of 16,000 words. Here are the runtimes for 4 executions.
 
 |Words|Mappers Runtime (ms)|Reducers Runtime (ms)|
 |----|----| --- |
