@@ -16,17 +16,18 @@ Showing a sample WordCount Run:
 
 We ran the vanilla WordCount program over 5,10,15,20 files of similar sizes to observe the scaling trend followed by MapReduce programs in general.
 
-|Words|Mappers Runtime|Reducers Runtime|
-|----|----|
-|3000|23328|3019|
-|6000|56345|5224|
-|9000|86295|5787|
-|12000|102106|10909|
+| Words | Mappers Runtime (ms) | Reducers Runtime (ms)|
+| ---- | ---- | ---- |
+| 3000 | 23328 | 3019 |
+| 6000 | 56345 | 5224 |
+| 9000 | 86295 | 5787 |
+| 12000 | 102106 | 10909 |
+
 
 ## 
 
-|Words|Mappers Runtime|Reducers Runtime|
-|----|----|
+|Words|Mappers Runtime (ms)|Reducers Runtime (ms)|
+|----|----| --- |
 |80000|28335|3329|
 |160000|52939|4773|
 |240000|85551|5411|
