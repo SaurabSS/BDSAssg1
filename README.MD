@@ -1,7 +1,7 @@
 # Learning Distributed/Parallel Big Data Computing with Hadoop MapReduce
 
 
-Note: This README is a brief overview of the directory and steps to get started. For the Analytical Report of experiments, refer to ANALYSIS.md
+Note: This README is a brief overview of the directory and the steps to get started. For the Analytical Report of experiments, refer to ANALYSIS.md
 
 
 ## Directories Explained
