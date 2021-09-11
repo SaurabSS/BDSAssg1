@@ -25,6 +25,9 @@ These are the runtimes for the given words (approximated through average).
 | 9000 | 86295 | 5787 |
 | 12000 | 102106 | 10909 |
 
+![WordCount Runtime Scaling as Words Increase](wordCountRuntimeScaling.png)
+
+As we can see, it is scaling alomst linearly in our specific example.
 
 ## Top 100 words using MapReduce Paradigm
 
@@ -36,3 +39,8 @@ We also ran a Top100 java code that uses MapReduce paradigm on files in Input/gu
 |160000|52939|4773|
 |240000|85551|5411|
 |320000|110659|11860|
+
+![TopN Runtime Scaling as Words Increase](TopNRuntimeScaling.png)
+
+As we can see, it scales alomst linearly here too.
+
