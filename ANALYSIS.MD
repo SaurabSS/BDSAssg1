@@ -6,7 +6,7 @@ The link for the entire repository is [here](https://github.com/SaurabSS/BDSAssg
 
 1. Install HDFS and MapReduce
 2. Run the vanilla WordCount program given in the hadoop [tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) on three datasets.
-3. Run a MapReduce based TopN [program](https://github.com/andreaiacono/MapReduce/blob/master/src/main/java/samples/topn_enhanced/EnhancedTopN.java) to find top 100 words across an entire corpus, for different sizes of corpus.
+3. Run a MapReduce based TopN [program](https://awesomeopensource.com/project/andreaiacono/MapReduce) to find top 100 words across an entire corpus, for different sizes of corpus.
 
 Installation of Hadoop is covered in `README.MD`. So we will only cover the analysis of second and third tasks in this report. 
 

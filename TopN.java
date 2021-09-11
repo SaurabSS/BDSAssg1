@@ -1,4 +1,4 @@
-//Source: https://github.com/andreaiacono/MapReduce/blob/master/src/main/java/samples/topn_enhanced/EnhancedTopN.java
+//Sources: https://awesomeopensource.com/project/andreaiacono/MapReduce; https://github.com/andreaiacono/MapReduce/blob/master/src/main/java/samples/topn_enhanced/EnhancedTopN.java
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
