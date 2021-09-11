@@ -3,7 +3,7 @@
 ## We performed three tasks in this Assignment
 
 1. Install HDFS and MapReduce
-2. Run the vanilla WordCount program given in the hadoop (tutorial)[https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html] on three datasets.
+2. Run the vanilla WordCount program given in the hadoop [tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) on three datasets.
 3. Run a MapReduce based TopN program to find top 100 words across an entire corpus, for different sizes of corpus.
 
 Installation of Hadoop is covered in `README.MD`. So we will only cover the analysis of second and third tasks in this report. 
@@ -25,6 +25,9 @@ These are the runtimes for the given words (approximated through average).
 | 9000 | 86295 | 5787 |
 | 12000 | 102106 | 10909 |
 
+![WordCount Runtime Scaling as Words Increase](wordCountRuntimeScaling.png)
+
+As we can see, it is scaling alomst linearly in our specific example.
 
 ## Top 100 words using MapReduce Paradigm
 
@@ -36,3 +39,8 @@ We also ran a Top100 java code that uses MapReduce paradigm on files in Input/gu
 |160000|52939|4773|
 |240000|85551|5411|
 |320000|110659|11860|
+
+![TopN Runtime Scaling as Words Increase](TopNRuntimeScaling.png)
+
+As we can see, it scales alomst linearly here too.
+
