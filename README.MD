@@ -1,5 +1,6 @@
 # Learning Distributed/Parallel Big Data Computing with Hadoop MapReduce
 
+The option chosen for this assignment is Problem1-option1. For the full description of the problem refer to `2021-ProgrammingAssignment-1.pdf`. The PDF also has descriptions of other problems and options.
 
 Note: This README is a brief overview of the directory and the steps to get started. For the Analytical Report of experiments, refer to ANALYSIS.md
 
@@ -15,6 +16,8 @@ Screenshots contain snaps of executed programs on a certain amount of data and i
 WordCount.java is the vanilla Java program in Hadoop MapReduce tutorial `https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html`. It counts the number of occurences of ALL words in any given set of files in an input directory. 
 
 TopN.java is a code that uses MapReduce paradigm to arrive at the Top N most occurred words in a given set of text files. 
+
+Plotter.py is a Python code that uses the matplotlib library to plot the runtime results for TopN and WordCount codes.
 
 
 ## To Run

@@ -1,3 +1,5 @@
+//Source: https://github.com/andreaiacono/MapReduce/blob/master/src/main/java/samples/topn_enhanced/EnhancedTopN.java
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -19,12 +21,6 @@ import java.util.List;
 import java.util.Collections;
 import java.util.Comparator;
 
-/**
- * Created with IntelliJ IDEA.
- * User: andrea
- * Date: 3/7/14
- * Time: 9:19 AM
- */
 public class TopN {
 
     public static void main(String[] args) throws Exception {
