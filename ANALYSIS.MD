@@ -8,4 +8,4 @@
 
 Installation of Hadoop is covered in `README.MD`. So we will only cover the analysis of second and third tasks in this report. 
 
-![Sample WordCount Run on 5 Files](/Screenshots/Screen\ Shot 2021-09-10\ at\ 5.59.56 PM.png)
+![Sample WordCount Run on 5 Files](https://github.com/SaurabSS/BDSAssg1/blob/main/Screenshots/Screen%20Shot%202021-09-10%20at%205.59.56%20PM.png)
