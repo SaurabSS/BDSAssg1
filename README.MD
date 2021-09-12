@@ -1,8 +1,8 @@
 # Learning Distributed/Parallel Big Data Computing with Hadoop MapReduce
 
-The option chosen for this assignment is Problem1-option1. For the full description of the problem, refer to `2021-ProgrammingAssignment-1.pdf`. The PDF also has descriptions of other problems and options given as a part of the assignment.
+The option chosen for this assignment is Problem1-Option1. For the full description of the problem, refer to `2021-ProgrammingAssignment-1.pdf`. The PDF also has descriptions of other problems and options given as a part of the assignment.
 
-**Note:** This README is a brief overview of the directory and the steps to run the code, along with a sample run. For the Analytical Report of experiments, refer to `AnalysisReport.pdf`. Took have a look at all commands ran as part of the experiments, look into the `Screenshots` folder.
+**Note:** This README is a brief overview of the directory and the steps to run the code, along with a sample run. For the Analytical Report of experiments, refer to `AnalysisReport.pdf`. To have a look at all commands ran as part of the experiments, look into the `Screenshots` folder.
 
 
 ## Directories Explained
