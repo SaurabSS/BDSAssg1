@@ -80,13 +80,15 @@ or
 ```
 jar cf topn.jar TopN*.class
 ```
-<br /><br />
+<br />
+
 ### Load Data
 ```
 hadoop fs -mkdir -p /user/input
 hadoop fs -put /<fs path of file> /user/input
 ```
-<br /><br />
+<br />
+
 ### Run
 
 ```
@@ -96,7 +98,8 @@ or
 ```
 hadoop jar topN.jar TopN /user/input /user/output
 ```
-<br /><br />
+<br />
+
 ### Get the Output back to the File System
 
 ```
@@ -117,7 +120,6 @@ Some very large files (in Calgary, Cantrbry folders) used for scaling tests were
 
 
 Also, Apache Hadoop framework was used to process and run MapReduce applications. It can be installed following this [link](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html).
-
 <br /><br />
 ## A Sample Execution Run
 
@@ -218,7 +220,7 @@ So, as the mappers increase, since each mapper roughly does the same work across
 <br /><br /><br />
 ## TopN using MapReduce
 We also ran a Top100 java code that uses MapReduce paradigm on files in Input/gutenberg. For this task, the books (and parts of books) written by Mark Twain were considered. On average, each file is in the size of 16,000 words. 
-<br /><br /><br />
+<br /><br />
 ### Dataset
 
 **Dataset size** 110KB per file, 2.2MB for all 20 files combined.
