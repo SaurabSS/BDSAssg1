@@ -1,3 +1,8 @@
+Assignment 1, Problem1-Option1 <br />
+CS 6220-A, Big Data Systems and Analytics, Fall 2021 <br />
+Professor: [Ling Liu](https://www.cc.gatech.edu/~lingliu/) <br />
+Georgia Institute of Technology<br />
+
 # Learning Distributed/Parallel Big Data Computing with Hadoop MapReduce
 
 The option chosen for this assignment is Problem1-Option1. For the full description of the problem, refer to `2021-ProgrammingAssignment-1.pdf`. The PDF also has descriptions of other problems and options given as a part of the assignment.
