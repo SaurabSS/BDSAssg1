@@ -193,7 +193,7 @@ We performed three high-level tasks as a part of this assignment:
 
 1. Install Hadoop and run HDFS and MapReduce
 2. Run the vanilla WordCount program given in the hadoop [tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) on four datasets.
-3. Ran a MapReduce based TopN [program](https://awesomeopensource.com/project/andreaiacono/MapReduce) to find top 100 words across an entire corpus, for four different sizes of corpus.
+3. Run a MapReduce based TopN [program](https://awesomeopensource.com/project/andreaiacono/MapReduce) to find top 100 words across an entire corpus, for four different sizes of corpus.
 
 Installation of Hadoop and screenshots of execution were covered above. Therefore, the analysis section cover details on the second and third tasks. 
 <br /><br /><br />
@@ -216,7 +216,7 @@ We ran the vanilla WordCount program over 5, 10, 15 and 20 files of similar size
 <br /><br />
 ### Dataset Sample
 
-Checkout `input` for all the files that were a part of testing the MapReduce program for WordCount and TopN.
+Checkout `input` folder for all the files that were a part of testing the `WordCount` MapReduce program.
 
 Here is an example of one of the files from the dataset.
 
@@ -258,7 +258,7 @@ Here is the same data in a stacked bar chart.
 
 As we can see, it scales roughly linearly in our specific example. This is the expected behavior as the files we are dealing with fall in small-mid size range, the number of operations (instructions to the CPU) required scales almost linearly with word count in the mapping phase. Keep in mind that we are reporting the *total* runtime of all mappers and some of this processing might happen parallely on different cores, depending on the configuration.
 <br /><br />
-The same behaviour can be expected in the shuffling phase of the reducer. However, given that the number of words in the English Vocabulary are constant (171k with many of them used extremely rarely), the sorting phase will not scale up linearly with the size of the input files. In this graph, as we are not dealing with very large corpuses for this analysis, this effect is not reflected.
+The same behaviour can be expected in the shuffling phase of the reducer. However, given that the number of words in the English Vocabulary are constant (171k, with many of them used extremely rarely), the sorting phase will not scale up linearly with the size of the input files. In this graph, as we are not dealing with very large corpuses, this effect is not reflected.
 
 
 <br /><br /><br />
@@ -271,7 +271,7 @@ We also ran a `TopN` (N=100) java code that uses MapReduce paradigm on files in 
 ### Data Sample
 Checkout `input` for all the files that were a part of testing the MapReduce program for WordCount and TopN computation.
 
-Here is an example of one of the files from the dataset. This file has 11,678 words in it.
+Here is an example of one of the files from the dataset. This file has 16,011 words in it.
 <br />
 
 <img src="Screenshots/ExampleFile.png" width="450">
