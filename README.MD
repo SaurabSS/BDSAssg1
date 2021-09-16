@@ -221,13 +221,14 @@ Checkout `input` for all the files that were a part of testing the MapReduce pro
 Here is an example of one of the files from the dataset.
 
 
-![Here is an example file](Screenshots/WordCountSampleText.png)
+<img src="Screenshots/WordCountSampleText.png" width="450"> 
 <br /><br />
+
 ### Output Analysis
 Let us consider the first 25 words reported by the program and their frequencies. 
 
 
-<img src="Screenshots/WCFirst25WordFrequencies.png" height="180">
+<img src="Screenshots/WCFirst25WordFrequencies.png" height="350">
 
 As we have seen, since there is no data pre-processing done by this vanilla WordCount program, there are redundant entries for some of the words. For example, the table below shows us four entries for the same word "all".
 
@@ -300,7 +301,7 @@ Here are the runtimes for 4 executions. These are for the given number of words 
 
 Here is the same data in a stacked bar chart.
 
-<img src="TopNRuntimeScaling.png">
+<img src="TopNRuntimeScaling.png" width="250">
 
 As we can see, it scales almost linearly here too, due to similar reasons as the abovementioned WordCount program. 
 
