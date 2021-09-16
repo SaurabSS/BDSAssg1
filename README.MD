@@ -227,7 +227,7 @@ Here is an example of one of the files from the dataset.
 Let us consider the first 25 words reported by the program and their frequencies. 
 
 
-<img src="Screenshots/WCFirst25WordFrequencies.png" height="250">
+<img src="Screenshots/WCFirst25WordFrequencies.png" height="180">
 
 As we have seen, since there is no data pre-processing done by this vanilla WordCount program, there are redundant entries for some of the words. For example, the table below shows us four entries for the same word "all".
 
@@ -253,9 +253,7 @@ These are the runtimes for the given words (approximated through average).
 
 Here is the same data in a stacked bar chart.
 
-<p align="center">
 <img src="wordCountRuntimeScaling.png" width="250">
-</p>
 
 As we can see, it scales roughly linearly in our specific example. This is the expected behavior as the files we are dealing with fall in small-mid size range, the number of operations (instructions to the CPU) required scales almost linearly with word count in the mapping phase. Keep in mind that we are reporting the *total* runtime of all mappers and some of this processing might happen parallely on different cores, depending on the configuration.
 <br /><br />
@@ -275,7 +273,7 @@ Checkout `input` for all the files that were a part of testing the MapReduce pro
 Here is an example of one of the files from the dataset. This file has 11,678 words in it.
 <br />
 
-![Here is an example file](Screenshots/ExampleFile.png)
+<img src="Screenshots/ExampleFile.png" width="450">
 
 
 ### Output Analysis
@@ -302,7 +300,7 @@ Here are the runtimes for 4 executions. These are for the given number of words 
 
 Here is the same data in a stacked bar chart.
 
-<img src="TopNRuntimeScaling.png" width="250">
+<img src="TopNRuntimeScaling.png">
 
 As we can see, it scales almost linearly here too, due to similar reasons as the abovementioned WordCount program. 
 
