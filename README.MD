@@ -255,7 +255,7 @@ These are the runtimes for the given words (approximated through average).
 
 Here is the same data in a stacked bar chart.
 
-<img src="wordCountRuntimeScaling.png" width="250">
+<img src="wordCountRuntimeScaling.png" width="350">
 
 As we can see, it scales roughly linearly in our specific example. This is the expected behavior as the files we are dealing with fall in small-mid size range, the number of operations (instructions to the CPU) required scales almost linearly with word count in the mapping phase. Keep in mind that we are reporting the *total* runtime of all mappers and some of this processing might happen parallely on different cores, depending on the configuration.
 <br /><br />
@@ -304,7 +304,7 @@ Here are the runtimes for 4 executions. These are for the given number of words 
 
 Here is the same data in a stacked bar chart.
 
-<img src="TopNRuntimeScaling.png" width="250">
+<img src="TopNRuntimeScaling.png" width="350">
 
 As we can see, it scales almost linearly here too, due to similar reasons as the abovementioned WordCount program. 
 
