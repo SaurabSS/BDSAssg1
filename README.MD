@@ -13,7 +13,7 @@ Georgia Institute of Technology<br />
     * [Load Data](#load-data)
     * [Run](#run)
     * [Get the Output back to the File System](#get-the-output-back-to-the-file-system)
-- [Software/Tools Used](#software-tools-used)
+- [Software and Tools Used](#software-and-tools-used)
 - [A Sample Execution Run](#a-sample-execution-run)
 - [Analysis](#analysis)
   * [Introductory Analysis](#introductory-analysis)
