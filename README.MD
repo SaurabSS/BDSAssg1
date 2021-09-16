@@ -1,5 +1,6 @@
 Assignment 1, Problem1-Option1 <br />
 CS 6220-A, Big Data Systems and Analytics, Fall 2021 <br />
+Course Website [Link](https://www.cc.gatech.edu/~lingliu/courses/cs6220/index.html) <br />
 Professor: [Ling Liu](https://www.cc.gatech.edu/~lingliu/) <br />
 Georgia Institute of Technology<br />
 
@@ -12,7 +13,7 @@ Georgia Institute of Technology<br />
     * [Load Data](#load-data)
     * [Run](#run)
     * [Get the Output back to the File System](#get-the-output-back-to-the-file-system)
-- [Software/Tools Used](#software-tools-used)
+- [Software and Tools Used](#software-and-tools-used)
 - [A Sample Execution Run](#a-sample-execution-run)
 - [Analysis](#analysis)
   * [Introductory Analysis](#introductory-analysis)
@@ -137,7 +138,7 @@ hadoop fs -get /user/output/part-r-<reducernumber> Output
 
 where the `reducernumber` starts from 00000 
 <br /><br /><br />
-## Software/Tools Used
+## Software and Tools Used
 
 To generate/assemble data, the following tools/sources have been used:
 
@@ -258,6 +259,7 @@ Here is the same data in a stacked bar chart.
 
 As we can see, it scales roughly linearly in our specific example. This is the expected behavior as the files we are dealing with fall in small-mid size range, the number of operations (instructions to the CPU) required scales almost linearly with word count in the mapping phase. Keep in mind that we are reporting the *total* runtime of all mappers and some of this processing might happen parallely on different cores, depending on the configuration.
 <br /><br />
+
 The same behaviour can be expected in the shuffling phase of the reducer. However, given that the number of words in the English Vocabulary are constant (171k, with many of them used extremely rarely), the sorting phase will not scale up linearly with the size of the input files. In this graph, as we are not dealing with very large corpuses, this effect is not reflected.
 
 
@@ -272,6 +274,7 @@ We also ran a `TopN` (N=100) java code that uses MapReduce paradigm on files in 
 Checkout `input` for all the files that were a part of testing the MapReduce program for WordCount and TopN computation.
 
 Here is an example of one of the files from the dataset. This file has 16,011 words in it.
+
 <br />
 
 <img src="Screenshots/ExampleFile.png" width="450">
