@@ -1,5 +1,6 @@
 Assignment 1, Problem1-Option1 <br />
 CS 6220-A, Big Data Systems and Analytics, Fall 2021 <br />
+Course Website [Link](https://www.cc.gatech.edu/~lingliu/courses/cs6220/index.html) <br />
 Professor: [Ling Liu](https://www.cc.gatech.edu/~lingliu/) <br />
 Georgia Institute of Technology<br />
 
@@ -108,7 +109,7 @@ hadoop fs -get /user/output/part-r-<reducernumber> Output
 
 where the `reducernumber` starts from 00000 
 <br /><br /><br />
-## Software/Tools Used
+## Software and Tools Used
 
 To generate/assemble data, the following tools/sources have been used:
 
